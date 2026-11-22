@@ -1,0 +1,14 @@
+{
+  "name": "seraj-phone",
+  "version": "2.0.0",
+  "description": "سراج فون - متجر هواتف وإكسسوارات على شبكة Pi (Firebase + Cloudinary)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@stellar/stellar-sdk": "^12.3.0",
+    "cloudinary": "^2.5.1",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.7.0"
+  }
+}
